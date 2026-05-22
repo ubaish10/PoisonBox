@@ -74,12 +74,12 @@
     }
 
     .auth-card {
-      width: min(480px, 100%);
+      width: min(440px, 100%);
       background: linear-gradient(180deg, rgba(9, 26, 16, 0.96), rgba(3, 10, 6, 0.98));
       border: 1px solid var(--line);
       border-radius: var(--radius);
-      box-shadow: var(--shadow), 0 0 0 1px rgba(57, 255, 20, 0.05) inset;
-      padding: 34px;
+      box-shadow: var(--shadow), 0 0 34px rgba(57, 255, 20, 0.09), 0 0 0 1px rgba(57, 255, 20, 0.05) inset;
+      padding: 32px;
     }
 
     .brand {
@@ -90,27 +90,30 @@
     }
 
     .brand-mark {
-      width: 52px;
-      height: 52px;
+      width: 54px;
+      height: 54px;
       display: grid;
       place-items: center;
       border: 1px solid var(--green);
       background: var(--green-soft);
       color: var(--green);
       border-radius: var(--radius);
-      font-family: var(--mono);
+      font-family: "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji", var(--mono);
       font-weight: 800;
-      font-size: 23px;
-      box-shadow: 0 0 28px rgba(57, 255, 20, 0.2);
+      font-size: 29px;
+      line-height: 1;
+      box-shadow: 0 0 30px rgba(57, 255, 20, 0.28);
     }
 
     .brand h1 {
       margin: 0;
       font-family: var(--mono);
-      font-size: 32px;
+      font-size: 34px;
       font-weight: 800;
       line-height: 1;
       letter-spacing: 0;
+      text-transform: uppercase;
+      text-shadow: 0 0 18px rgba(57, 255, 20, 0.22);
     }
 
     .brand p {
@@ -691,7 +694,7 @@
   <section id="authScreen" class="screen auth-screen active">
     <div class="auth-card">
       <div class="brand">
-        <div class="brand-mark">PX</div>
+        <div class="brand-mark">☠</div>
         <div>
           <h1>POISON BOX</h1>
           <p>Offline CTF platform for modern web and AI security</p>
@@ -731,7 +734,7 @@
     <div class="app-shell">
       <aside class="sidebar">
         <div class="brand">
-          <div class="brand-mark">PX</div>
+          <div class="brand-mark">☠</div>
           <div>
             <h1>POISON BOX</h1>
             <p>CTF Control Panel</p>
